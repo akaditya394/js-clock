@@ -1,5 +1,5 @@
 html {
-    background: #018ded url("./assets/bg.svg");
+    background: #018ded url("./bg.svg");
     background-size: cover;
     font-family: "helvetica neue";
     text-align: center;
@@ -33,7 +33,7 @@ html {
     height: 100%;
     transform: translateY(
       -3px
-    ); /* account for the height of the clock hands */
+    );
   }
 
   .hand {
@@ -43,5 +43,5 @@ html {
     position: absolute;
     top: 50%;
     transform-origin: 100%;
-    transition: all 0.3s ease-in-out forwards;
+    transition: all 0.01s cubic-bezier(0, 1.75, 0.58, 1);
   }
